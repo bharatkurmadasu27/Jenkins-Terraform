@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: '2010-09-09'
+
+Resources:
+  MyInstance: 
+    Type: AWS::EC2::Instance
+    Properties:
+       ImageId: ami-0d7a109bf30624c99
+       InstanceType: t2.micro
+       KeyName: aws
+       AvailabilityZone: us-east-1a
